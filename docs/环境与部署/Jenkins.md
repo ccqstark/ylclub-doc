@@ -166,7 +166,7 @@ apt-get install vim
 
 ![Jenkins%20+%20docker%20+%20springboot%20%E5%AE%8C%E7%BE%8E%E9%85%8D%E5%90%88%E5%85%A8%E6%B5%81%E7%A8%8B%E6%95%99%E7%A8%8B%20e510c92879ca422aafb008869a20a133/Untitled%209.png](https://ccqstark.github.io/p/jenkins_docker_springboot/Jenkins%20+%20docker%20+%20springboot%20%E5%AE%8C%E7%BE%8E%E9%85%8D%E5%90%88%E5%85%A8%E6%B5%81%E7%A8%8B%E6%95%99%E7%A8%8B%20e510c92879ca422aafb008869a20a133/Untitled%209.png)
 
-初次之外，不要在本地打出jar包，不然这么大一个文件上传到仓库再被拉取很费时间
+除此之外，不要在本地打出jar包，不然这么大一个文件上传到仓库再被拉取很费时间
 
 ### 构建触发器
 

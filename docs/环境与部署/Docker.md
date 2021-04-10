@@ -94,19 +94,28 @@ docker info
 
 
 
-
-
 ### MySQL
 
-
+```bash
+docker run \
+-d \
+-p 3308:3306 \
+-v /home/mysql/conf:/etc/mysql/conf.d \
+-v /home/mysql/data:/var/lib/mysql \
+-e MYSQL_ROOT_PASSWORD=[mysql密码] \ 
+--name ylclubdb \
+mysql:5.7
+```
 
 
 
 ### Redis
 
+```bash
+docker pull redis:latest
 
-
-
+docker run -d --name ylclubredis -p 6379:6379 redis --requirepass "mypassword"
+```
 
 
 
