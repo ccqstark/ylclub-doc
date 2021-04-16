@@ -121,7 +121,17 @@ docker run -d --name ylclubredis -p 6379:6379 redis --requirepass "mypassword"
 
 ## 镜像构建
 
+```dockerfile
+FROM openjdk:8
 
+MAINTAINER ccqstark<1367305698@qq.com>
+
+ADD /target/ylclub-0.0.1-SNAPSHOT.jar ylclub.jar
+
+EXPOSE 8080
+
+ENTRYPOINT ["java","-jar","-Duser.timezone=GMT+08","/ylclub.jar"]
+```
 
 
 
