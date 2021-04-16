@@ -124,7 +124,7 @@ docker run -d --name ylclubredis -p 6379:6379 redis --requirepass "mypassword"
 ```dockerfile
 FROM openjdk:8
 
-MAINTAINER ccqstark<1367305698@qq.com>
+MAINTAINER xxxxxx<xxxxxxx@qq.com>
 
 ADD /target/ylclub-0.0.1-SNAPSHOT.jar ylclub.jar
 
