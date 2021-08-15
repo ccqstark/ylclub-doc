@@ -102,7 +102,7 @@ docker run \
 -p 3308:3306 \
 -v /home/mysql/conf:/etc/mysql/conf.d \
 -v /home/mysql/data:/var/lib/mysql \
--e MYSQL_ROOT_PASSWORD=[mysql密码] \ 
+-e MYSQL_ROOT_PASSWORD=[mysql密码] \
 --name ylclubdb \
 mysql:5.7
 ```
